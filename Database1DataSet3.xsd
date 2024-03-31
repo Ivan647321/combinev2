@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database1DataSet3" targetNamespace="http://tempuri.org/Database1DataSet3.xsd" xmlns:mstns="http://tempuri.org/Database1DataSet3.xsd" xmlns="http://tempuri.org/Database1DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Assignment_1.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TrainingScheTableAdapter" GeneratorDataComponentClassName="TrainingScheTableAdapter" Name="TrainingSche" UserDataComponentName="TrainingScheTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database1ConnectionString (Settings)" DbObjectName="dbo.TrainingSche" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT trainingName, timeStart, timeEnd, date, location, [fees(RM)] FROM dbo.TrainingSche</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="trainingName" DataSetColumn="trainingName" />
+              <Mapping SourceColumn="timeStart" DataSetColumn="timeStart" />
+              <Mapping SourceColumn="timeEnd" DataSetColumn="timeEnd" />
+              <Mapping SourceColumn="date" DataSetColumn="date" />
+              <Mapping SourceColumn="location" DataSetColumn="location" />
+              <Mapping SourceColumn="fees(RM)" DataSetColumn="fees(RM)" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database1DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Database1DataSet3" msprop:Generator_DataSetName="Database1DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrainingSche" msprop:Generator_RowEvHandlerName="TrainingScheRowChangeEventHandler" msprop:Generator_RowDeletedName="TrainingScheRowDeleted" msprop:Generator_RowDeletingName="TrainingScheRowDeleting" msprop:Generator_RowEvArgName="TrainingScheRowChangeEvent" msprop:Generator_TablePropName="TrainingSche" msprop:Generator_RowChangedName="TrainingScheRowChanged" msprop:Generator_RowChangingName="TrainingScheRowChanging" msprop:Generator_TableClassName="TrainingScheDataTable" msprop:Generator_RowClassName="TrainingScheRow" msprop:Generator_TableVarName="tableTrainingSche" msprop:Generator_UserTableName="TrainingSche">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="trainingName" msprop:Generator_ColumnPropNameInRow="trainingName" msprop:Generator_ColumnPropNameInTable="trainingNameColumn" msprop:Generator_ColumnVarNameInTable="columntrainingName" msprop:Generator_UserColumnName="trainingName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="timeStart" msprop:Generator_ColumnPropNameInRow="timeStart" msprop:Generator_ColumnPropNameInTable="timeStartColumn" msprop:Generator_ColumnVarNameInTable="columntimeStart" msprop:Generator_UserColumnName="timeStart" type="xs:duration" minOccurs="0" />
+              <xs:element name="timeEnd" msprop:Generator_ColumnPropNameInRow="timeEnd" msprop:Generator_ColumnPropNameInTable="timeEndColumn" msprop:Generator_ColumnVarNameInTable="columntimeEnd" msprop:Generator_UserColumnName="timeEnd" type="xs:duration" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_UserColumnName="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="location" msprop:Generator_ColumnPropNameInRow="location" msprop:Generator_ColumnPropNameInTable="locationColumn" msprop:Generator_ColumnVarNameInTable="columnlocation" msprop:Generator_UserColumnName="location" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fees_x0028_RM_x0029_" msprop:Generator_ColumnPropNameInRow="_fees_RM_" msprop:Generator_ColumnPropNameInTable="_fees_RM_Column" msprop:Generator_ColumnVarNameInTable="_columnfees_RM_" msprop:Generator_UserColumnName="fees(RM)" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
