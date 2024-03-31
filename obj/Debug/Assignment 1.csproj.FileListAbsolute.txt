@@ -1,0 +1,21 @@
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe.config
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\Assignment 1.pdb
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csproj.AssemblyReference.cache
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.Properties.Resources.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csproj.GenerateResource.cache
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.exe
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.pdb
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmTraining.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmProfile.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\Database1.mdf
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\Database1_log.ldf
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csproj.CopyComplete
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmMember.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmLogin.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmPayment.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmCompetition.resources
+C:\Users\limli\Desktop\IOOP\WindowsFormsApp2\Work\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmSuggestion.resources
